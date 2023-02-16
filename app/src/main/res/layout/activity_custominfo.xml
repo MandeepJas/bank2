@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/t2"
+            android:layout_width="match_parent"
+            android:layout_height="94dp"
+            android:text="                            Customer Names"
+            android:textColor="#010C47"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            app:emojiCompatEnabled="true"
+            app:fontFamily="sans-serif-condensed-medium"
+            app:textAllCaps="true" />
+
+        <Button
+            android:id="@+id/b"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:backgroundTint="#020C47"
+            android:text="Rajesh Prasad"
+            app:backgroundTint="#9DA4CA"
+            app:icon="?android:attr/actionModeFindDrawable"
+            app:toggleCheckedStateOnClick="true" />
+
+        <Button
+            android:id="@+id/b2"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:backgroundTint="#020C47"
+            android:text="Avneet kaur"
+            app:icon="?android:attr/actionModeFindDrawable" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:backgroundTint="#020C47"
+            android:text="piyush pandey"
+            app:icon="?android:attr/actionModeFindDrawable" />
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:backgroundTint="#020C47"
+            android:text="pavandeep singh"
+            app:icon="?android:attr/actionModeFindDrawable" />
+
+        <Button
+            android:id="@+id/b5"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:backgroundTint="#020C47"
+            android:text="sohan prajapati"
+            app:icon="?android:attr/actionModeFindDrawable" />
+
+        <Button
+            android:id="@+id/b6"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:backgroundTint="#020C47"
+            android:text="akil ahmned"
+            app:icon="?android:attr/actionModeFindDrawable" />
+
+        <Button
+            android:id="@+id/b7"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:backgroundTint="#020C47"
+            android:text="priya arora"
+            app:icon="?android:attr/actionModeFindDrawable" />
+
+        <Button
+            android:id="@+id/b8"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:backgroundTint="#020C47"
+            android:text="jasleen kaur"
+            app:icon="?android:attr/actionModeFindDrawable" />
+
+        <Button
+            android:id="@+id/b9"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:backgroundTint="#020C47"
+            android:text="rahul rai"
+            app:icon="?android:attr/actionModeFindDrawable" />
+
+        <Button
+            android:id="@+id/b10"
+            android:layout_width="match_parent"
+            android:layout_height="78dp"
+            android:backgroundTint="#020C47"
+            android:text="arun agrawal"
+            app:icon="?android:attr/actionModeFindDrawable" />
+
+        <TextView
+            android:id="@+id/t4"
+            android:layout_width="match_parent"
+            android:layout_height="71dp"
+            android:text="powered by  :- State Bank of India" />
+    </LinearLayout>
+</ScrollView>
